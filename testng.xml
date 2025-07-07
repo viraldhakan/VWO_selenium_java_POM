@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="VWO.utils.ScreenshortListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="VWO_Selenium_with_java">
+
+        <classes>
+            <class name="VWO.tests.LoginTest">
+                <methods>
+                    <include name="testVWOLogin_Positive"/>
+                    <include name="testLogin_negative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
