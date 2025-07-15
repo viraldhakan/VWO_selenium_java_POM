@@ -1,10 +1,13 @@
-### Selenium Automation
 
-- POM-Based Framework
-- Java, Maven, Selenium, Test NG
+
+## VWO Automation Framework
+
+## Selenium Automation with Java
+
+- POM Folder Structure Framework
+- Selenium , Java
+- Maven , TestNG
 - Thread Local Support → Thread Safety
-- Allure Report
 - Property. / Config Support
 - Test NG Listeners
-- 
-
+- Allure Report
