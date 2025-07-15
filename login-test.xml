@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
+<suite name="Login Test Suite">
     <listeners>
 
         <!--This used for the Screenshot of Failed Test cases-->
@@ -10,7 +10,7 @@
         <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
 
     </listeners>
-    <test verbose="2" preserve-order="true" name="VWO_Selenium_with_java">
+    <test verbose="2" preserve-order="true" name="Login Test Cases ">
 
         <classes>
             <class name="VWO.tests.LoginTest">
