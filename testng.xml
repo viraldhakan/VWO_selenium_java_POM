@@ -2,7 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
+
+        <!--This used for the Screenshot of Failed Test cases-->
         <listener class-name="VWO.utils.ScreenshortListener"/>
+
+        <!--This used for the Add Test cases on Allure Report -->
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+
     </listeners>
     <test verbose="2" preserve-order="true" name="VWO_Selenium_with_java">
 
